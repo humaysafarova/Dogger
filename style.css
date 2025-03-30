@@ -22,6 +22,16 @@ body {
 #carefor .imgbox {
   width: 500px;
 }
+@media (max-width: 768px) {
+  #carefor .textbox h1 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  #carefor .textbox h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+}
 
 #welcome {
   padding: 40px 0;
@@ -56,6 +66,16 @@ body {
 #welcome .wid {
   width: 580px;
   padding: 0;
+}
+@media (max-width: 1199px) {
+  #welcome .textbox {
+    padding: 8px;
+  }
+}
+@media (max-width: 768px) {
+  #welcome .imgbox {
+    margin-bottom: 20px;
+  }
 }
 
 #aboutus {
@@ -95,6 +115,33 @@ body {
 }
 #aboutus .imgbox {
   width: 450px;
+}
+@media (max-width: 991px) {
+  #aboutus .textbox {
+    padding: 0 5px;
+  }
+  #aboutus .textbox h1 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #aboutus .textbox {
+    padding: 0 35px;
+  }
+  #aboutus .textbox h4 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 530px) {
+  #aboutus .textbox {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 470px) {
+  #aboutus .textbox {
+    padding: 0 5px;
+  }
 }
 
 #ourtrainers {
@@ -191,6 +238,11 @@ body {
 #pricingtable .PREMIUM-color .btn {
   background-color: #708f97;
 }
+@media (max-width: 767px) {
+  #pricingtable .box {
+    margin-bottom: 10px;
+  }
+}
 
 #questions {
   padding: 40px 0;
@@ -240,6 +292,19 @@ body {
 #questions .bigicon i {
   font-size: 30px;
 }
+@media (max-width: 991px) {
+  #questions .textbox {
+    padding: 0 5px;
+  }
+}
+@media (max-width: 767px) {
+  #questions .textbox h4 {
+    margin-bottom: 5px;
+  }
+  #questions h1 {
+    font-size: 30px;
+  }
+}
 
 #doggerblog {
   padding: 40px 0;
@@ -274,6 +339,11 @@ body {
 }
 #doggerblog .wid {
   width: 580px;
+}
+@media (max-width: 767px) {
+  #doggerblog .textbox h4 {
+    margin-bottom: 10px;
+  }
 }
 
 #ourservices {
