@@ -22,6 +22,11 @@ body {
 #carefor .imgbox {
   width: 500px;
 }
+@media (max-width: 991px) {
+  #carefor .textbox h1 {
+    font-size: 32px;
+  }
+}
 @media (max-width: 768px) {
   #carefor .textbox h1 {
     font-size: 45px;
@@ -184,6 +189,11 @@ body {
 #ourtrainers .wid {
   width: 580px;
 }
+@media (max-width: 767px) {
+  #ourtrainers h1 {
+    font-size: 33px;
+  }
+}
 
 #pricingtable {
   padding: 40px 0;
@@ -239,6 +249,9 @@ body {
   background-color: #708f97;
 }
 @media (max-width: 767px) {
+  #pricingtable .textbox h1 {
+    font-size: 30px;
+  }
   #pricingtable .box {
     margin-bottom: 10px;
   }
@@ -299,7 +312,7 @@ body {
 }
 @media (max-width: 767px) {
   #questions .textbox h4 {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
   }
   #questions h1 {
     font-size: 30px;
@@ -341,8 +354,14 @@ body {
   width: 580px;
 }
 @media (max-width: 767px) {
+  #doggerblog .textbox {
+    margin: 0 10px;
+  }
   #doggerblog .textbox h4 {
     margin-bottom: 10px;
+  }
+  #doggerblog h1 {
+    font-size: 30px;
   }
 }
 
@@ -375,4 +394,9 @@ body {
 }
 #ourservices .box .icon i {
   font-size: 60px;
+}
+@media (max-width: 991px) {
+  #ourservices h1 {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
