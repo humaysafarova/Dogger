@@ -3,9 +3,11 @@
     .textbox
         width: 580px
         text-align: center
+        h1,h5
+            cursor: text
         h1
             font-weight: 700
-            font-size: 35px
+            font-size: 45px
         h5
             font-weight: 200
             font-size: 20px
@@ -17,6 +19,8 @@
         background-color: #708f97
         padding: 50px 30px
         text-align: center
+        h2,h3,h4
+            cursor: text
         h2
             font-size: 25px
         h3
@@ -35,10 +39,17 @@
             border-radius: 30px
             background-color: #2b383c
             color: #ffff
+            &:hover
+                background-color: #5b6267
+                transition: 0.5s
+            h6
+                cursor: pointer
     .PREMIUM-color
         background-color: #2b383c
         .btn
             background-color: #708f97
+            &:hover
+                background-color: #1a1a1a
     @media ( max-width: 767px )
         .textbox
             h1

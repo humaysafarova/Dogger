@@ -14,10 +14,12 @@ body {
   font-weight: 700;
   font-size: 60px;
   margin: 0 0 10px;
+  cursor: text;
 }
 #carefor .textbox h4 {
   font-size: 24px;
   color: #a8a8a8;
+  cursor: text;
 }
 #carefor .imgbox {
   width: 500px;
@@ -46,15 +48,18 @@ body {
 }
 #welcome .textbox h1 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
+  cursor: text;
 }
 #welcome .textbox h3 {
   color: #868686;
   margin: 20px 0 40px;
   font-size: 20px;
+  cursor: text;
 }
 #welcome .textbox h2, #welcome .textbox h6 {
   margin: 15px 0;
+  cursor: text;
 }
 #welcome .textbox h2 {
   font-size: 33px;
@@ -67,6 +72,12 @@ body {
   padding: 10px 30px;
   background-color: #a7b59f;
   color: white;
+}
+#welcome .textbox .btn:hover {
+  background-color: #252525;
+}
+#welcome .textbox .btn h5 {
+  cursor: pointer;
 }
 #welcome .wid {
   width: 580px;
@@ -89,9 +100,12 @@ body {
 #aboutus .textbox {
   padding: 0 100px;
 }
+#aboutus .textbox h1, #aboutus .textbox h3, #aboutus .textbox p, #aboutus .textbox h4 {
+  cursor: text;
+}
 #aboutus .textbox h1 {
   font-weight: 700;
-  font-size: 35px;
+  font-size: 50px;
   margin: 10px 0;
 }
 #aboutus .textbox h3, #aboutus .textbox p {
@@ -127,7 +141,7 @@ body {
   }
   #aboutus .textbox h1 {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 @media (max-width: 767px) {
@@ -152,9 +166,12 @@ body {
 #ourtrainers {
   padding: 40px 0;
 }
+#ourtrainers h1, #ourtrainers h3, #ourtrainers h4, #ourtrainers h2 {
+  cursor: text;
+}
 #ourtrainers h1 {
   font-weight: 700;
-  font-size: 38px;
+  font-size: 50px;
 }
 #ourtrainers h3, #ourtrainers h4 {
   font-weight: 300;
@@ -175,6 +192,7 @@ body {
   padding: 20px 0 0;
 }
 #ourtrainers .box ul li {
+  cursor: pointer;
   margin: 0 10px;
   background-color: #d4cece;
   padding: 10px;
@@ -186,12 +204,15 @@ body {
 #ourtrainers .box ul li .icon {
   margin: -7px;
 }
+#ourtrainers .box ul li .icon i {
+  cursor: pointer;
+}
 #ourtrainers .wid {
   width: 580px;
 }
 @media (max-width: 767px) {
   #ourtrainers h1 {
-    font-size: 33px;
+    font-size: 40px;
   }
 }
 
@@ -202,9 +223,12 @@ body {
   width: 580px;
   text-align: center;
 }
+#pricingtable .textbox h1, #pricingtable .textbox h5 {
+  cursor: text;
+}
 #pricingtable .textbox h1 {
   font-weight: 700;
-  font-size: 35px;
+  font-size: 45px;
 }
 #pricingtable .textbox h5 {
   font-weight: 200;
@@ -218,6 +242,9 @@ body {
   background-color: #708f97;
   padding: 50px 30px;
   text-align: center;
+}
+#pricingtable .box h2, #pricingtable .box h3, #pricingtable .box h4 {
+  cursor: text;
 }
 #pricingtable .box h2 {
   font-size: 25px;
@@ -242,11 +269,21 @@ body {
   background-color: #2b383c;
   color: white;
 }
+#pricingtable .box .btn:hover {
+  background-color: #5b6267;
+  transition: 0.5s;
+}
+#pricingtable .box .btn h6 {
+  cursor: pointer;
+}
 #pricingtable .PREMIUM-color {
   background-color: #2b383c;
 }
 #pricingtable .PREMIUM-color .btn {
   background-color: #708f97;
+}
+#pricingtable .PREMIUM-color .btn:hover {
+  background-color: #1a1a1a;
 }
 @media (max-width: 767px) {
   #pricingtable .textbox h1 {
@@ -263,9 +300,12 @@ body {
 #questions .wid {
   width: 580px;
 }
+#questions h1, #questions h3 {
+  cursor: text;
+}
 #questions h1 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 45px;
   margin: 15px 0;
 }
 #questions h3 {
@@ -275,6 +315,9 @@ body {
 }
 #questions .textbox {
   padding: 0 60px;
+}
+#questions .textbox h2 {
+  cursor: pointer;
 }
 #questions .textbox h2, #questions .textbox h4 {
   font-size: 25px;
@@ -315,7 +358,7 @@ body {
     margin-bottom: 7px;
   }
   #questions h1 {
-    font-size: 30px;
+    font-size: 38px;
   }
 }
 
@@ -325,9 +368,12 @@ body {
 #doggerblog .box {
   display: flex;
 }
+#doggerblog h1, #doggerblog h3 {
+  cursor: text;
+}
 #doggerblog h1 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 45px;
 }
 #doggerblog h3 {
   font-size: 20px;
@@ -335,6 +381,9 @@ body {
 }
 #doggerblog .textbox {
   margin: 0 0 0 20px;
+}
+#doggerblog .textbox h2, #doggerblog .textbox h5 {
+  cursor: pointer;
 }
 #doggerblog .textbox h2 {
   font-size: 22px;
@@ -349,6 +398,12 @@ body {
 }
 #doggerblog .textbox p, #doggerblog .textbox h4 {
   margin: 20px 0 0;
+  cursor: text;
+}
+#doggerblog .textbox h5 {
+  font-size: 18px;
+  color: #aba8a8;
+  margin-top: 15px;
 }
 #doggerblog .wid {
   width: 580px;
@@ -361,7 +416,7 @@ body {
     margin-bottom: 10px;
   }
   #doggerblog h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
 }
 
@@ -371,9 +426,12 @@ body {
 #ourservices .wid {
   width: 580px;
 }
+#ourservices h1, #ourservices h3 {
+  cursor: text;
+}
 #ourservices h1 {
   font-weight: 700;
-  font-size: 35px;
+  font-size: 50px;
   padding: 50px 0 0;
 }
 #ourservices h3 {
@@ -383,6 +441,9 @@ body {
 }
 #ourservices .box {
   padding: 30px 40px;
+}
+#ourservices .box h2, #ourservices .box h3 {
+  cursor: text;
 }
 #ourservices .box h2 {
   font-size: 25px;
@@ -397,6 +458,6 @@ body {
 }
 @media (max-width: 991px) {
   #ourservices h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
